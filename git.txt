@@ -1,0 +1,27 @@
+git init (初始化仓库第一步)
+
+git clone XXX（这里填github项目地址）（克隆远程代码，如果远程新建的没有，忽略）
+
+git add XXX （后面添加需要上传的文件 全部就是  . ）
+
+git commit -m "这里是提交时候的备注"
+
+git remote add origin （这里填github项目地址） 提交后会提示让你填写github账号密码
+
+git push -u origin master 提交代码到远程仓库
+
+git status  查看本地已修改的文件
+
+git pull 提交代码到远程服务器 （服务器向本地更新）
+
+git push 更新提交到远程服务器 （本地向服务器更新）
+
+git checkout master 进入master主分支，也可以进去其他分支
+
+git merge new brank 合并新分支到主分支
+
+git rm 移除文件
+
+cd 进入文件夹
+
+git mkdir text 当前目录新建text文件夹
