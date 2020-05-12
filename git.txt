@@ -30,5 +30,6 @@ cd 进入文件夹
 
 git mkdir text 当前目录新建text文件夹
 
-git push --set-upstream origin branch_name 如果本地新建了一个分支 branch_name，但是在远程没有
+git push --set-upstream origin hcc 向服务器段新增本地的分支hcc 
+
 
